@@ -7,6 +7,8 @@ from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChannelParticipantsKicked
 from telethon.errors.rpcerrorlist import FloodWaitError
+from var import Var
+
 
 RIGHTS = ChatBannedRights(
     until_date=None,
